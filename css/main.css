@@ -1,0 +1,318 @@
+#container{
+    width: 1024px;
+    margin: 0px auto;
+    display: box;
+    height: 100%;
+}
+
+#left-column{
+    width: 264px;
+    float: left;
+    background-color: cadetblue;
+    height: 100%;
+    text-align: center;
+    
+    
+}
+nav{
+    text-align: center;
+    width: 100%;
+}
+
+
+#right-column{
+    width: 750px;
+    float: left;
+    background-color: azure;
+    padding: 4px;
+    margin-bottom: 3%;
+    
+    
+}
+
+h1 {
+    
+    padding-left: 10px;
+    position: relative;
+    font-size:36px;	
+    text-transform:uppercase;
+    letter-spacing:5px;
+    color: white;
+    background-color: olivedrab;
+    
+}
+h2 {
+    
+    padding-left: 10px;
+    position: relative;
+    font-size:16px;	
+    text-transform:uppercase;
+    letter-spacing:5px;
+    color: white;
+    background-color: olivedrab;
+    
+}
+header{
+    background-color: olivedrab;
+}
+footer{
+    border: none
+    color: white;
+    background-color: lightgray;
+    
+    font-size: 16px;
+    right: 0px;
+    width: 100%;
+    height: 5%;
+   
+}
+
+
+#photo{
+    height: 255px;
+    width: 255px;
+    border-radius: 25%;
+    border: solid 3pt red; 
+}
+
+#nav{
+    overflow: hidden;
+    display: block;
+    height: 75%;
+    position: absolute;
+    top: 19.9%;
+    background-color: wheat;
+    width: 255px;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul li{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+#empty{
+    padding: 15px;
+}
+
+#none{
+    padding: 40px;
+    padding-bottom: 25px;
+}
+#bottom{
+    padding-bottom: 800px;
+}
+a{
+    text-decoration: none;
+
+}
+
+a:visited {
+   color:#8B008B ;
+}
+a:hover {
+   background-color: #FFFFCC;
+} 
+
+body,ul,li, aside{
+    font-family: Bellefair, Georgia, Cambria, "Times New Roman", serif;
+}
+
+h1,h2,h3, h5{
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+    
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+}
+.fa-linkedin {
+  
+  color: white;
+}
+
+form{
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: azure;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.input-area{
+    margin: 10px 0px 10px 0px;
+}
+
+.input-area label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-area input{
+    height: 30px;
+    width: 90%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn{
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    background: olivedrab;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    
+}
+
+.btn:hover{
+    background: grey;
+}
+
+
+
+
+#rssfeed{
+    position: absolute;
+    margin left: 35%;  
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 24px;
+    
+}
+.rss{
+    float: right;
+    margin-bottom: 16px;
+}
+
+#rssincl-box-1177994{
+    width: 100% !important; 
+    overflow: auto !important;
+    height: 10em !important;
+}
+
+#rssincl-box-1177992{
+    width: 100% !important; 
+    overflow: auto !important;
+    height: 10em !important;
+}
+
+#rssincl-box-1177991{
+    width: 100% !important; 
+    overflow: auto !important;
+    height: 10em !important;
+}
+
+@media screen and (max-width: 1440px){
+    #container{
+        width: 1440px;
+    }
+    
+    #left-column{
+        width: 20%;
+        height: 90%;
+       
+    }
+    #right-column{
+        width: 79.4%;
+    }
+    #photo{
+        width: 96%;
+        
+    }
+    footer{
+        position: fixed;
+        bottom: 0%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    #container{
+        width: 1024px;
+    }
+    
+    #left-column{
+        width: 25%;
+        height: 90%;
+       
+    }
+    #right-column{
+        width: 73%;
+    }
+    #photo{
+        width: 96%;
+        
+    }
+    footer{
+        position: fixed;
+        bottom: 0%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    #container{
+        width: 640px;
+    }
+    #left-column{
+        width: 100%;
+    }
+    #right-column{
+        width: 100%;
+    }
+    #photo{
+        width: 55%;
+        
+    }
+    header{
+        width: 100%;
+    }
+    #empty{
+        display: none;
+    }
+    #none{
+        display: none;
+    }
+    ul li{
+    padding: 10px;
+    padding-bottom: 5px;
+}
+    #bottom{
+        padding-bottom: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    #container{
+        width: 320px;
+    }
+}
